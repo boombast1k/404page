@@ -1,0 +1,158 @@
+/* MeyerWeb Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: Chicago, Charcoal, sans-serif;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: normal;
+    color: #0f1010;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p{
+    margin: 0 0 22px;
+}
+
+#layer{
+    min-height: 500px;
+    min-width: 320px;
+}
+
+header{
+    position: fixed;
+    left: 50%;
+    margin: 33px 0 0 -210px;
+    width: 260px;
+    padding: 18px 0 12px 80px;
+    background: url("img/logo.png") no-repeat transparent;
+    z-index: 3;
+}
+
+header h1{
+    text-transform: lowercase;
+}
+
+#description{
+    font-style: italic;
+    color: #3b4042;
+}
+
+#number{
+
+    position: absolute;
+    color: #78b935;
+    font-size: 194px;
+    bottom: 56px;
+    left: 50%;
+    width: 180px;
+    height: 230px;
+    padding-top: 2184px;
+    font-weight: bold;
+    -moz-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
+    -o-transform: rotate(19deg);
+    transform: rotate(19deg);
+}
+
+#number span{
+
+}
+
+#epigraph{
+    position: absolute;
+    width: 300px;
+    bottom: 150px;
+    left: 50%;
+    color: #325572;
+    z-index: 2;
+}
+
+#epigraph a{
+    color: #173d5d;
+}
+
+#sky{
+    position: fixed;
+    padding-top: 120px;
+    background: #dff1f7;
+    top: 0;
+    bottom: 262px;
+    width: 100%;
+    z-index: 0;
+}
+
+#islands{
+    position: absolute;
+    height: 202px;
+    width: 100%;
+    bottom: 0;
+    background: url("img/islands.png") center no-repeat transparent;
+    z-index: 1;
+}
+
+#water{
+    position: fixed;
+    background: #9fd6cf;
+    width: 100%;
+    height: 190px;
+    bottom: 72px;
+    z-index: 0;
+}
+
+#island_shadow{
+    position: absolute;
+    top: 0;
+    height: 2px;
+    width: 100%;
+    background: url("img/island-shadow.png") center no-repeat transparent;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    bottom: 0;
+    background: url("img/footer-wave.png") repeat-x white;
+    z-index: 0;
+}
+
+footer ul{
+    margin-top: 22px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer li {
+    width: 110px;
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: text-top;
+}
